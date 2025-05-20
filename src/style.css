@@ -1,0 +1,83 @@
+/* src/style.css */
+
+/* 导入本地像素字体 */
+@font-face {
+  font-family: 'WenQuanYi-Pixel';
+  src: url('/fonts/WenQuanYi-Bitmap-12px.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 像素风字体类 */
+.pixel-font {
+  font-family: 'WenQuanYi-Pixel', 'Press Start 2P', monospace;
+}
+
+.mono-font {
+  font-family: 'WenQuanYi-Pixel', 'VT323', monospace;
+}
+
+html {
+  font-size: 28px;
+  height: 100%;
+}
+/* 全局样式 */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'WenQuanYi-Pixel', 'VT323', monospace;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* 像素风按钮样式 */
+.pixel-btn {
+  font-family: 'WenQuanYi-Pixel', 'Press Start 2P', cursive;
+  font-size: 12px; /* 调整为像素字体的最佳尺寸 */
+  padding: 10px 15px;
+  border: 3px solid #333;
+  background: #fff;
+  color: #333;
+  cursor: pointer;
+  transition: all 0.1s;
+  image-rendering: pixelated; /* 保持像素清晰 */
+}
+
+.pixel-btn:hover {
+  background: #333;
+  color: #fff;
+  transform: translate(-2px, -2px);
+  box-shadow: 2px 2px 0px #666;
+}
+
+.pixel-btn:active {
+  transform: translate(0, 0);
+  box-shadow: none;
+}
+
+/* 像素风输入框 */
+.pixel-input {
+  font-family: 'VT323', monospace;
+  font-size: 14px;
+  padding: 8px;
+  border: 3px solid #333;
+  background: #fff;
+}
+
+.pixel-input:focus {
+  outline: none;
+  box-shadow: inset 2px 2px 0px #333;
+}
+
+/* 像素风卡片 */
+.pixel-card {
+  border: 3px solid #333;
+  background: #fff;
+  padding: 15px;
+}
