@@ -49,7 +49,7 @@
           <div class="avatar-section">
             <div class="pixel-avatar me">
               <div class="avatar-img">👨‍💻</div>
-              <span class="avatar-name">我</span>
+              <span class="avatar-name">来自远古时代的暗黑忍者</span>
             </div>
           </div>
           <div class="quick-stats">
@@ -73,7 +73,7 @@
           <div class="avatar-section">
             <div class="pixel-avatar her">
               <div class="avatar-img">👩‍🎨</div>
-              <span class="avatar-name">她</span>
+              <span class="avatar-name">来自银河纪元的夺命杀手</span>
             </div>
           </div>
           <div class="quick-stats">
@@ -111,6 +111,7 @@ import OtomeSection from './components/OtomeSection.vue'
 import CreateSection from './components/CreateSection.vue'
 import CollectSection from './components/CollectSection.vue'
 import ExtraSection from './components/ExtraSection.vue'
+import DailyEntry from './components/DailyEntry.vue'
 
 export default {
   name: 'App',
@@ -120,7 +121,8 @@ export default {
     OtomeSection,
     CreateSection,
     CollectSection,
-    ExtraSection
+    ExtraSection,
+    DailyEntry,
   },
   data() {
     return {
@@ -346,7 +348,7 @@ body {
   grid-area: header;
   padding: 20px;
   padding-bottom: 40px;
-  background: linear-gradient(90deg, #3951a2, #e3c2de);
+  background: linear-gradient(90deg, #afccef, #e3c2de);
   width: 115%;
   margin-left: -7.5%;
   border: 8px solid #d17fd1;
