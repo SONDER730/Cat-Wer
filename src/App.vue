@@ -37,7 +37,7 @@
           </li>
           <div class="status-info">
             <span class="date">{{ currentDate }}</span>
-            <span class="weather">☀️ 晴朗</span>
+            <span class="weather">☀️</span>
           </div>
         </div>
       </header>
@@ -48,8 +48,7 @@
         <aside class="left-sidebar">
           <div class="avatar-section">
             <div class="pixel-avatar me">
-              <div class="avatar-img">👨‍💻</div>
-              <span class="avatar-name">来自远古时代的暗黑忍者</span>
+              <span class="avatar-name">来自远古时代的暗黑忍者—— W</span>
             </div>
           </div>
           <div class="quick-stats">
@@ -72,8 +71,7 @@
         <aside class="right-sidebar">
           <div class="avatar-section">
             <div class="pixel-avatar her">
-              <div class="avatar-img">👩‍🎨</div>
-              <span class="avatar-name">来自银河纪元的夺命杀手</span>
+              <span class="avatar-name">来自银河纪元的夺命杀手—— D</span>
             </div>
           </div>
           <div class="quick-stats">
@@ -391,7 +389,7 @@ body {
 .left-sidebar, .right-sidebar {
   border-right: 8px solid #e4a5ad;
   padding: 20px;
-  background: #f8f9fa;
+  background: #f4be9d;
   display: flex;
   flex-direction: column;
 

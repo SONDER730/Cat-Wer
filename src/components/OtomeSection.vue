@@ -145,7 +145,7 @@ export default {
       return this.characters[this.selectedCharacter]
     },
     currentCharacterImage() {
-      return `/Cat-Wer/public/images/Figure${this.selectedCharacter}.png`
+      return `/Cat-Wer/images/Figure${this.selectedCharacter}.png`
     }
   },
   methods: {
